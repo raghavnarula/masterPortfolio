@@ -67,21 +67,6 @@ class Contact extends Component {
                 >
                   {blogSection["subtitle"]}
                 </p>
-                <div className="blogsite-btn-div">
-                  <Button
-                    text="Visit My Blogsite"
-                    newTab={true}
-                    href={blogSection.link}
-                    theme={theme}
-                  />
-                </div>
-              </div>
-              <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <BlogsImg theme={theme} />
               </div>
             </div>
           </Fade>
@@ -119,14 +104,6 @@ class Contact extends Component {
                 >
                   {phoneSection["subtitle"]}
                 </p>
-                <div className="address-btn-div">
-                  <Button
-                    text="Visit on Google Maps"
-                    newTab={true}
-                    href={addressSection.location_map_link}
-                    theme={theme}
-                  />
-                </div>
               </div>
             </div>
           </Fade>
